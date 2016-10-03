@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-v4-style-guide-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrendanMP/bootstrap-v4-style-guide-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrendanMP/bootstrap-v4-style-guide-starter/issues"
+  },
+  "homepage": "https://github.com/BrendanMP/bootstrap-v4-style-guide-starter#readme"
+}
