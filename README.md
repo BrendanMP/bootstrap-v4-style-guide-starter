@@ -1,1 +1,1 @@
-# Style Guide & Component Builder for Bootstrap v4
+# Style Guide Builder for Bootstrap v4
