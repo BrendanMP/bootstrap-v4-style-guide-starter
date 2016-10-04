@@ -1,0 +1,32 @@
+@import "base/variables";
+@import "bootstrap";
+
+//@include media-breakpoint-up(xs) { ... }
+//@include media-breakpoint-up(sm) { ... }
+//@include media-breakpoint-up(md) { ... }
+//@include media-breakpoint-up(lg) { ... }
+//@include media-breakpoint-up(xl) { ... }
+
+html {
+  font-size: 14px;
+  @include media-breakpoint-up(sm) {
+    font-size: 18px;
+  }
+}
+
+.title-bar {
+  @extend .navbar, .navbar-light, .bg-faded;
+  display: flex;
+  align-items: center;
+}
+.title-bar__title {
+  @extend .navbar-brand;
+}
+.title-bar__toggler {
+  @extend .navbar-toggler;
+  float: none;
+  margin: 0 $spacer*0.5 0 $spacer*-0.5;
+}
+
+.site-nav {
+}
