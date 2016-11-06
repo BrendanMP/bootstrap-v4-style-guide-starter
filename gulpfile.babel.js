@@ -49,7 +49,7 @@ gulp.task('scripts', function () {
             './node_modules/bootstrap/js/dist/tab.js',
             './node_modules/bootstrap/js/dist/tooltip.js',
             './node_modules/bootstrap/js/dist/popover.js',
-            './src/js/**/*.js'
+            './src/js/app.js'
         ])
         .pipe(babel({
             presets: ['es2015']
