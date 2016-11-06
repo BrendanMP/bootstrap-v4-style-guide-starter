@@ -77,8 +77,6 @@ gulp.task('images', function () {
         .pipe(size({title: 'images'}));
 });
 
-
-
 gulp.task('browser-sync', function () {
     browserSync({
         server: {
