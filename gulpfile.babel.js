@@ -39,7 +39,8 @@ gulp.task('styles', function () {
 gulp.task('scripts', function () {
     return gulp.src([
             './node_modules/bootstrap/js/dist/util.js',
-            './node_modules/bootstrap/js/dist/alert.js',
+            './node_modules/bootstrap/js/dist/util.js',
+            './node_modules/bootstrap/js/dist/alert.js' ,
             './node_modules/bootstrap/js/dist/button.js',
             './node_modules/bootstrap/js/dist/carousel.js',
             './node_modules/bootstrap/js/dist/collapse.js',
@@ -76,8 +77,6 @@ gulp.task('images', function () {
         .pipe(gulp.dest('dist/img'))
         .pipe(size({title: 'images'}));
 });
-
-
 
 gulp.task('browser-sync', function () {
     browserSync({
